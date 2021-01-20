@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    const pi=3.14;
+    function areaCircle(r){
+        return r*r*pi
+    }
+    function periCircle(r){
+        return r*2*pi
+    }
+    let a = parseFloat(prompt("nhập bán kính"));
+    let S = areaCircle(a);
+    let c = periCircle(a);
+    document.write("Diện tích bằng : " +S+"<br>");
+    document.write('Chu vi bằng : ' + c)
+</script>
+</body>
+</html>

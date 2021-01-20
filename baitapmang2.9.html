@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = [];
+    b = parseInt(prompt('nhập số phần tử trong mảng'));
+    for (let i = 0; i < b; i++) {
+        let x = prompt("nhập phân tử vào mảng");
+        a.push(x);
+    }
+    let c = prompt("nhập bất kỳ");
+    let count = 0;
+
+    function arr() {
+        for (let j = 0; j < a.length; j++) {
+            if (c === a[j]) {
+                count += 1;
+            }
+        }
+        if (count == 0){
+            alert("-1")
+    }else {
+            alert(count)
+        }
+    }
+    arr()
+</script>
+</body>
+</html>

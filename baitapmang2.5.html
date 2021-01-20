@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+    function min(a,b,c){
+        let min =a;
+        if (a>b){
+            if (b>c){
+                alert("min="+c)
+            }else {
+                alert("min = "+b)
+            }
+        }else if (a>c){
+            alert("min="+c)
+        }else {
+            alert("min="+a)
+        }
+    }
+    let a = parseFloat(prompt("nhập a"))
+    let b = parseFloat(prompt("nhập b"))
+    let c = parseFloat(prompt("nhập c"))
+    min(a,b,c);
+
+</script>
+</body>
+</html>
